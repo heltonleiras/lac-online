@@ -1,0 +1,58 @@
+[BAIXAR CONFIGURAÇÕES]
+
+wget https://raw.githubusercontent.com/thiagobcav/laconline/main/lacserver.sh -O lacserver.sh;
+
+
+
+
+[ATIVAR CONFIGURAÇÕES]
+
+chmod +x ./lacserver.sh
+
+
+
+
+[USAR CONFIGURAÇÕES]
+
+./lacserver.sh
+
+
+
+
+
+[LIGAR SERVIDOR]
+
+./LAC_Linux_v1.5.8.x86_64 -batchmode -nographics
+
+
+
+[PASTA DO SEU MAPA]
+
+cd /root/.config/unity3d/MA/LAC/editor
+
+
+
+
+[CRIAR MAPA]
+
+nano NOME_DO_MAPA.txt
+
+
+
+
+[EDITAR MAPA]
+
+rm NOME_DO_MAPA.txt; nano NOME_DO_MAPA.txt
+
+
+
+
+[EDITAR HOST]
+
+cd /root/.config/unity3d/MA/LAC/editor
+
+cd NOME_DO_MAPA
+
+nano save-data.txt
+
+
